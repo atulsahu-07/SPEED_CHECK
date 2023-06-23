@@ -1,0 +1,28 @@
+# WORKING 
+
+1. It would appear that this code is a straightforward typing speed test game that makes use of the Pygame library. Let's go over the code and look at how it works:
+
+2. The code imports the necessary modules first: os, pygame, sys, time, and random The creation of games and the operation of file systems both make use of these modules frequently.
+
+3. The following constant variables are specified:
+    -The script file's base directory is represented by BASE_DIR.
+    -IMAGE_DIR addresses the catalog way where the game's picture documents are put away.
+    -open_img_path, bg_path, and icon_path keep track of the paths to the game's various image files.
+
+4. The main game controller is a class called Game that is defined in the code. It includes a variety of methods and attributes related to the logic and rendering of the game.
+
+5. The game's settings are set up and the necessary images are loaded by the __init__ method. The Pygame library is also used to set up the game window.
+
+6. Using Pygame's image module, the static load_image method loads and scales an image file. It takes care of any mistakes that might happen during the loading process.
+
+7. Text is rendered on the game screen using the draw_text method. It takes boundaries, for example, the screen, message, y-coordinate, text dimension, and variety.
+
+8. The get_sentence method returns a randomly selected sentence from a file called "sentences.txt" that contains sentences.
+
+9. Based on the text that is entered, the show_results method determines the player's typing speed, accuracy, and word per minute (WPM). It displays the most recent game results on the screen.
+
+10. The main game loop, the run method, manages the game's state, updates the screen, and takes care of user input. To respond to user actions, it makes use of the event handling mechanism in Pygame.
+
+11. The reset_game method resets the game's state, which includes choosing a new word to type, changing the timing, and entering text. Additionally, it shows the necessary components on the screen.
+
+12. At long last, a Game class instance is created, and the game is launched using the run method.
