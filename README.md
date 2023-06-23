@@ -1,11 +1,13 @@
 # SPEED_CHECK
-Type Speed Test: Measure Your Typing Skills and Improve Your Speed! 
+Type Speed Check: Measure Your Typing Skills and Improve Your Speed! 
 
-Abstract:
+
+# Abstract:
 
 A straightforward typing speed test game is presented in the code, which makes use of the Pygame library. Players can test how quickly they can type by typing a sentence from a text file that is provided at random. Metrics like accuracy and words per minute (WPM) are calculated after the player's input is compared to the target word. The test results are shown in a user-friendly interface with visual elements in the game. In order to track their progress and improve their typing skills, players can restart the game and attempt multiple tests. The code demonstrates the implementation of timing, input handling, and result calculation functions, as well as how to use Pygame for game development.
 
-Objective:
+
+# Objective:
 
 ->Utilize Pygame to create a typing speed test game.
 
@@ -27,7 +29,8 @@ Objective:
 
 ->Make the typing speed test a fun and motivating experience for users.
 
-References:
+
+# References:
 
 "TypingTest.com" - A popular online platform for typing speed tests and exercises.
 
